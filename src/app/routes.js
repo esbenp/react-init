@@ -4,10 +4,6 @@ import React from 'react'
 import { Route, Switch } from 'react-router'
 import { Loadable } from '../infrastructure/components'
 
-const Component = Loadable({
-  loader: () => import('./Component')
-})
-
 const Dashboard = Loadable({
   loader: () => import('./Dashboard')
 })
