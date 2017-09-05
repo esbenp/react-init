@@ -11,6 +11,5 @@ const Dashboard = Loadable({
 export default (
   <Switch>
     <Route exact path="/" component={Dashboard} />
-    <Route path="/test" component={Component} />
   </Switch>
 )
